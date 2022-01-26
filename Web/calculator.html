@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<head>
+    <title>calculator</title>
+    <meta charset="utf-8">
+    <meta lang="cs">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <div class="exapleSpace">
+        <input class="calculate" id="calculate">
+        <p id="help"></p>
+    </div>
+    <div class="basics">
+        <ul>
+            <li><button type="button" onclick="deleteAll()">C</button></li>
+            <li><button type="button" onclick="addToInput('7')">7</button></li>
+            <li><button type="button" onclick="addToInput('4')">4</button></li>
+            <li><button type="button" onclick="addToInput('1')">1</button></li>
+            <li><button style="color: #444444;">.</button></li>
+        </ul>
+        <ul>
+            <li><button type="button" onclick="deleteOne()">⌫</button></li>
+            <li><button type="button" onclick="addToInput('8')">8</button></li>
+            <li><button type="button" onclick="addToInput('5')">5</button></li>
+            <li><button type="button" onclick="addToInput('2')">2</button></li>
+            <li><button type="button" onclick="addToInput('0')">0</button></li>
+        </ul>
+        <ul>
+            <li><button style="color: #444444;">.</button></li>
+            <li><button type="button" onclick="addToInput('9')">9</button></li>
+            <li><button type="button" onclick="addToInput('6')">6</button></li>
+            <li><button type="button" onclick="addToInput('3')">3</button></li>
+            <li><button type="button" onclick="addToInput('.')">.</button></li>
+        </ul>
+        <ul>
+            <li><button type="button" onclick="addToInput('÷')">÷</button></li>
+            <li><button type="button" onclick="addToInput('×')">×</button></li>
+            <li><button type="button" onclick="addToInput('-')">-</button></li>
+            <li><button type="button" onclick="addToInput('+')">+</button></li>
+            <li><button type="button" onclick="calculate()">=</button></li>
+        </ul>
+    </div>
+
+    <button style="right: 0px; top: 0px; position: fixed;"><a href="index.html">zpět</a></button>
+
+</body>
